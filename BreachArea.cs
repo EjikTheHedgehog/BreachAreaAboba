@@ -127,11 +127,11 @@ public class BreachArea : BaseSettingsPlugin<BreachAreaSettings>
 
     public override void Render()
     {
-        ImGui.SetNextWindowPos(new Vector2(10, 8));
-        ImGui.Begin("BreachInfo", ImGuiWindowFlags.NoInputs | ImGuiWindowFlags.AlwaysAutoResize | ImGuiWindowFlags.NoTitleBar);
-        var transitionedCount = _breachCache.Values.Count(x => x.IsTransitioned);
-        ImGui.Text($"Breaches: {_breachCache.Count} (Transitioned: {transitionedCount})");
-        ImGui.End();
+        // ImGui.SetNextWindowPos(new Vector2(10, 8));
+        // ImGui.Begin("BreachInfo", ImGuiWindowFlags.NoInputs | ImGuiWindowFlags.AlwaysAutoResize | ImGuiWindowFlags.NoTitleBar);
+        // var transitionedCount = _breachCache.Values.Count(x => x.IsTransitioned);
+        // ImGui.Text($"Breaches: {_breachCache.Count} (Transitioned: {transitionedCount})");
+        // ImGui.End();
 
         foreach (var breach in _breachCache.Values.Where(b => b.ShouldShowExpansion))
         {
