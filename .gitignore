@@ -1,0 +1,4 @@
+bin/
+obj/
+Errors.txt
+Radar.cs
