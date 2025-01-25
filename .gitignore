@@ -2,3 +2,4 @@ bin/
 obj/
 Errors.txt
 Radar.cs
+BreachAreaLegacy.cs

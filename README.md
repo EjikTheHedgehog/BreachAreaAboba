@@ -1,1 +1,1 @@
-TestTest cringe aboba script
+Script for displaying the maximum and current radius
