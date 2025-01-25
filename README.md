@@ -1,1 +1,1 @@
-Breach radius
+Script for displaying the maximum and current radius
